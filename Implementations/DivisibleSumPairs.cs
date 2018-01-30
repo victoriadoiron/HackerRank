@@ -20,7 +20,7 @@ namespace Solutions.Implementations
             return numOfPairs;
         }
 
-        static void Main(String[] args)
+        void Main(String[] args)
         {
             string[] tokens_n = Console.ReadLine().Split(' ');
             int n = Convert.ToInt32(tokens_n[0]);
