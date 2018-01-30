@@ -26,7 +26,7 @@ namespace Solutions.Implementations
             return results;
         }
 
-        static void Main(String[] args)
+        void Main(String[] args)
         {
             int n = Convert.ToInt32(Console.ReadLine());
             int[] grades = new int[n];
