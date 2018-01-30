@@ -1,4 +1,6 @@
-static class ExtraLongFactorial
+using System;
+
+class ExtraLongFactorial
 {
     public static void ExtraLongFactorials(System.Numerics.BigInteger n)
     {
@@ -12,6 +14,12 @@ static class ExtraLongFactorial
             }
         }
 
-        System.Console.WriteLine(product);
+        Console.WriteLine(product);
+    }
+
+    void Main(string[] args)
+    {
+        var n = Convert.ToInt64(Console.ReadLine());
+        ExtraLongFactorials(n);
     }
 }
