@@ -23,7 +23,7 @@ namespace Solutions.Implementations
             return matchingBiggestFlock.Min(p => p.Type);
         }
 
-        static void Main(String[] args)
+        void Main(String[] args)
         {
             int n = Convert.ToInt32(Console.ReadLine());
             string[] ar_temp = Console.ReadLine().Split(' ');
